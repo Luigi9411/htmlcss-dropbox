@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body{
+    margin-top: 60px;
+}
+
+html{
+    font-family:'Roboto', sans-serif;
+}
+
 nav{
     background-color:white;
     width: 100%;
@@ -12,11 +20,7 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
-    line-height: 60px;
-}
-
-body{
-    background-color: blue;
+    line-height: 30px;
 }
 
 .menu-left{
@@ -57,4 +61,57 @@ li {
     color: white;
     padding: 0.3em 0.5em;
     text-decoration: none;
+}
+
+/* header */
+
+header{
+    background-color: #B4D0E7;
+    position: relative;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+ 
+h1{
+   font-size: 63px;
+   padding-top: 1em;
+}
+
+.container-flex{
+    display: flex;
+    margin-top: -2em;
+}
+
+
+.item{
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.item1{
+    flex-basis: 0;
+    flex-grow: 2;
+    flex-shrink: 0;
+}
+
+
+
+.img-item{
+    width: 100%;
+    position: relative;
+    top: 4em;
+}
+
+.text-form{
+    font-size: 13px;
+    position: relative;
+    top: 5em;
+}
+
+.p-marg{
+    margin-bottom: 1em;
 }
