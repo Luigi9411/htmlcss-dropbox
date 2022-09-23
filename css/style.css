@@ -21,6 +21,7 @@ nav{
     top: 0;
     left: 0;
     line-height: 30px;
+    z-index: 99;
 }
 
 .menu-left{
@@ -85,7 +86,6 @@ h1{
     margin-top: -2em;
 }
 
-
 .item{
     flex-basis: 0;
     flex-grow: 1;
@@ -97,8 +97,6 @@ h1{
     flex-grow: 2;
     flex-shrink: 0;
 }
-
-
 
 .img-item{
     width: 100%;
@@ -113,5 +111,101 @@ h1{
 }
 
 .p-marg{
-    margin-bottom: 1em;
+    margin-bottom: 3em;
+    
+}
+
+.button-blue{
+    background-color: #0061FF;
+    color: white;
+    padding: 1em 1em;
+    text-decoration: none;
+}
+
+.text-bottom{
+    margin-top: 3em;
+}
+
+.arrow-bottom{
+    font-size: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 70px;
+}
+ /* main */
+
+ .container2{
+    max-width: 800px;
+    margin: 8em auto;
+}
+
+h2{
+    font-size: 34px;
+}
+
+/* buttom */
+
+.buttom-flex{
+    display: flex;
+    margin-top: 3em;
+}
+
+.container-buttom {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .container-buttom input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+
+  .container-buttom:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+
+  .container-buttom input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  .container-buttom input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .container-buttom .checkmark:after {
+   top: 4.8px;
+   left: 4.8px;
+   width: 8px;
+   height: 8px;
+   border-radius: 50%;
+   background: white;
+   padding: .1em .1em;
 }
