@@ -105,14 +105,13 @@ h1{
 }
 
 .text-form{
-    font-size: 13px;
+    font-size: 14px;
     position: relative;
     top: 5em;
 }
 
 .p-marg{
-    margin-bottom: 3em;
-    
+    margin-bottom: 3em;  
 }
 
 .button-blue{
@@ -187,7 +186,7 @@ h2{
   }
 
   .container-buttom input:checked ~ .checkmark {
-    background-color: #2196F3;
+    background-color: #0061FF;
   }
 
   .checkmark:after {
@@ -208,4 +207,64 @@ h2{
    border-radius: 50%;
    background: white;
    padding: .1em .1em;
+}
+
+/* table */
+
+.margin-text-sm{
+    margin-top: 3em;
+    padbottom: 2em;
+}
+
+.text-small{
+    font-size: 14px;
+    padding: 0.5em 0;
+}
+
+.text-small2{
+    font-size: 14px;
+    padding: 0.5em 0;
+    margin-bottom: 3em;
+}
+
+.text-small3{
+    font-size: 14px;
+    margin: 2.5em 0;
+}
+
+.button-blue2{
+    background-color: #0061FF;
+    color: white;
+    padding: .8em 1em;
+    text-decoration: none;
+}
+
+.fa-check{
+    color: #0061FF;
+}
+
+.container-flex2{
+    display: flex;
+   gap: 1.5em;
+    
+}
+
+.table-flex{
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 0;   
+}
+
+.table1{
+    border: 1px solid gray;
+    border-bottom: 0;
+    padding: 1em 2em;
+    text-align: center;
+}
+
+.table2{
+    border: 1px solid gray;
+    padding-top: 2em;
+    padding-bottom: 10em;
+    padding-left: 1em;
 }
