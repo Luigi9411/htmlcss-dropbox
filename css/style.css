@@ -135,7 +135,10 @@ h1{
 
  .container2{
     max-width: 800px;
-    margin: 8em auto;
+    margin-top: 8em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h2{
@@ -211,20 +214,26 @@ h2{
 
 /* table */
 
+.container3{
+    max-width: 800px;
+    margin: 2em auto;
+}
+
 .margin-text-sm{
-    margin-top: 3em;
-    padbottom: 2em;
+    margin-top: 3em; 
 }
 
 .text-small{
     font-size: 14px;
     padding: 0.5em 0;
+    display: flex;
 }
 
 .text-small2{
     font-size: 14px;
     padding: 0.5em 0;
     margin-bottom: 3em;
+    display: flex;
 }
 
 .text-small3{
@@ -236,6 +245,13 @@ h2{
     background-color: #0061FF;
     color: white;
     padding: .8em 1em;
+    text-decoration: none;
+}
+
+.button-blue3{
+    background-color: #0061FF;
+    color: white;
+    padding: .8em 4.5em;
     text-decoration: none;
 }
 
@@ -268,3 +284,107 @@ h2{
     padding-bottom: 10em;
     padding-left: 1em;
 }
+
+.table3{
+    border: 1px solid gray;
+    padding-top: 2em;
+    padding-bottom: 2.1em;
+    padding-left: 1em;
+}
+
+.table4{
+    border: 1px solid gray;
+    padding-top: 2em;
+    padding-bottom: 8.1em;
+    padding-left: 1em;
+}
+
+.margin-text-sm h3{
+    margin-top: 2em;
+    padding-bottom: 1em;
+    font-size: 14px;
+}
+
+.short-line{
+    width: 3em;
+    color: gray;
+}
+
+.table2 h2{
+    margin-bottom: 1em;
+    font-size: 24px;
+}
+
+.table2 h3{
+    margin-bottom: 0.5em;
+}
+
+.table3 h2{
+    margin-bottom: 1em;
+    font-size: 24px;
+}
+
+.table3 h3{
+    margin-bottom: 0.5em;
+}
+
+.text-color{
+    color: gray;
+}
+
+.table4 h2{
+    margin-bottom: 1em;
+    font-size: 24px;
+}
+
+.table4 h3{
+    margin-bottom: 0.5em;
+}
+
+/* table2 */
+
+.container4{
+    max-width: 800px;
+    margin: 2em auto;
+}
+
+.table5{
+    border: 1px solid gray;
+    border-bottom: 0;
+    padding: 1em 2em;
+    text-align: center;
+}
+
+.table6{
+    border: 1px solid gray;
+    display: flex;
+    padding: 2em 1em;
+    justify-content: space-around;
+}
+
+.button-blue4{
+    background-color: #0061FF;
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-size: 15px; 
+    position: relative;
+    left: 1em;
+}
+
+.table6 h2{
+    margin-bottom: 1em;
+    font-size: 24px;
+}
+
+.table6 h3{
+    margin-bottom: 0.5em;
+    font-size: 18px;
+}
+
+.table6 p{
+    margin-top: 4em;
+    margin-bottom: 0em;
+    font-size: 12px;
+}
+
