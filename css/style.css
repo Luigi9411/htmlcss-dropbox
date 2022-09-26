@@ -261,8 +261,7 @@ h2{
 
 .container-flex2{
     display: flex;
-   gap: 1.5em;
-    
+    gap: 1.5em;
 }
 
 .table-flex{
@@ -387,4 +386,41 @@ h2{
     margin-bottom: 0em;
     font-size: 12px;
 }
+
+/* Section */
+
+.flex1{
+    display: flex;
+    padding: 4em 0;
+}
+
+.img-partner{
+    width:60%;
+    margin-right: 2em;
+}
+
+.text-partner{
+    margin-top: 3em;
+}
+
+.text-partner h2{
+    font-size: 22px;
+    margin-bottom: 1em;
+}
+
+.text-partner p{
+    font-size: 14px;
+    margin-bottom: 2em;
+}
+
+.text-partner a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 0.5em 1em;
+    font-size: 14px;
+}
+
+/* section */
+
 
