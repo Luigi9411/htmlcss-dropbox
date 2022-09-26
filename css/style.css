@@ -423,4 +423,42 @@ h2{
 
 /* section */
 
+.container5{
+    max-width: 800px;
+    margin: 2em auto;
+}
 
+.container5 h2{
+    font-size: 34px;
+    margin-bottom: 1em;
+}
+
+.flex-tools{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-bottom: 8em;
+}
+
+.flex-tools div{
+    width: 30%;
+}
+
+.flex-tools img{
+    width: 100%;
+}
+
+.flex-tools p{
+    font-size: 13px;
+}
+
+.flex-tools h3{
+    font-size: 22px;
+}
+
+.container5 a{
+    color: #0061FF;
+    margin: 6em 0;
+}
+
+/* section */
