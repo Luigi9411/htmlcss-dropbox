@@ -486,6 +486,7 @@ h2{
 
 .container6-1 img{
     width:40%;
+    filter: invert(1);
 }
 
 .box1{
@@ -512,10 +513,6 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.box3 img{
-    margin-top: 3em;
 }
 
 .box4{
@@ -588,3 +585,80 @@ h2{
     margin-bottom: 2em;
 }
 
+/* section */
+
+.container7{
+    width: 100%;
+    height: 180px;
+    background-color: #B4D0E7;
+}
+
+.sub-container7{
+    max-width: 800px;
+    margin: auto;
+    padding-top: 3.5em;
+    position: relative;
+
+}
+
+.button-white{
+    background-color: white;
+    color: black;
+    padding: 0.8em 2em;
+    text-decoration: none;
+    font-size: 15px; 
+    position: absolute; 
+    top: 4em;
+    right: 0;
+}
+
+.sub-container7 h2{
+    font-size: 34px;
+    color: #61082B;
+}
+
+/* section */
+
+.container8{
+    max-width: 800px;
+    margin: 2em auto;
+}
+
+.answers{
+    display: none;
+    font-size: 14px;
+}
+
+.request:hover .answers{
+    display: block;
+}
+
+.request-flex{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.request-flex h3{
+    font-size: 16px;
+}
+
+.container8:first-child{
+    margin-top: 8em;
+}
+
+.margin-hr{
+    margin: 2em 0;
+}
+
+.margin-hr2{
+    margin-top: 2em;
+    margin-bottom: 8em;
+}
+
+/* footer */
+
+.container9{
+    width: 100%;
+    height: 180px;
+    background-color: black;
+}
